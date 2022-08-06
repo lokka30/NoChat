@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>me.lokka30.nochat</groupId>
+  <artifactId>nochat-parent</artifactId>
+  <packaging>pom</packaging>
+  <version>0.1</version>
+  <modules>
+    <module>plugin-bukkit</module>
+  </modules>
+
+  <properties>
+    <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <build>
+    <defaultGoal>clean package</defaultGoal>
+  </build>
+
+  <name>NoChat - Parent Module</name>
+  <description>
+    NoChat is a plugin for Minecraft servers which prevents
+    players from entering messages into chat.
+  </description>
+  <url>https://github.com/lokka30/NoChat/</url>
+  <inceptionYear>2022</inceptionYear>
+  <licenses>
+    <license>
+      <name>GNU GPL v3.0</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.en.html</url>
+    </license>
+  </licenses>
+  <organization>
+    <name>ArcanePlugins</name>
+    <url>https://discord.io/arcaneplugins</url>
+  </organization>
+  <developers>
+    <developer>
+      <id>lokka30</id>
+      <name>Lachlan Adamson</name>
+      <organization>ArcanePlugins</organization>
+      <url>https://github.com/lokka30/</url>
+      <email>lokka30@protonmail.com</email>
+      <roles>
+        <role>Director</role>
+        <role>Author</role>
+      </roles>
+      <timezone>8</timezone>
+    </developer>
+  </developers>
+
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/lokka30/NoChat/issues/</url>
+  </issueManagement>
+
+</project>
