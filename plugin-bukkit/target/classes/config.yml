@@ -1,9 +1,0 @@
-# NoChat by lokka30 ~ Disable chat on your Minecraft server
-# Repository: https://github.com/lokka30/NoChat/
-# Welcome to the configuration file. For changes to apply, please restart your server.
-
-# Message to send to players who attempt to chat, though are prevented from doing so by this plugin.
-# Accepts a list of lines to send in the message. Legacy 'ampersand-style' color codes can be used.
-# Make the list empty to have no message sent at all.
-cancellation-message:
-  - "&b&lNoChat:&7 You don't have permission to chat on this server."

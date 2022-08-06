@@ -2,5 +2,8 @@
 .idea/
 *.iml
 
+# Maven
+plugin-bukkit/target/
+
 # macoS
 .DS_Store
