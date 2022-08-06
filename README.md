@@ -34,7 +34,7 @@ NoChat is a tiny lightweight plugin with a bypass permission feature. By default
   </tr>
   <tr>
     <td>Bukkit (Spigot/Paper)</td>
-    <td>MC 1.19+, Java 17+</td>
+    <td>MC 1.18+, Java 17+</td>
     <td>MC 1.7+, Java 8+</td>
   </tr>
 </table>
